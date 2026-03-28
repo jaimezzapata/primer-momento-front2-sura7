@@ -1,6 +1,6 @@
 import './App.css'
-import ProductsCard from './Component/card'
-import { products } from './data'
+import ProductsCard from './Components/ProductsCard.jsx'
+import { products } from './data.js'
 
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
   return (
     <section>
       {
-        users.map((products)=> (
-          <Card info={products} />
+        products.map((info)=> (
+          <ProductsCard info={info} />
         ))
       }
     </section>
