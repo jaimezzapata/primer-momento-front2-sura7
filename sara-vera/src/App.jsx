@@ -1,5 +1,6 @@
 import { conciertos } from "./data";
 import TourCard from "./components/TourCard";
+import "./App.css"
 
 function App() {
   return (
