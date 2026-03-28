@@ -1,15 +1,13 @@
-import { movies } from './data';
-import MovieCard from './components/MovieCard';
+import { cartelera } from './data.js';
+import MovieCard from './MovieCard.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="container">
-      <h1>Cartelera Cinema City</h1>
-      <div className="movies-grid">
-        {movies.map((movie) => (
-          <MovieCard key={movie.id} {...movie} />
+    <div style={{ padding: '20px' }}>
+      <h1>Cartelera de Cinema City</h1>
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+        {cartelera.map((peli) => (
+          <MovieCard key={peli.id} pelicula={peli} />
         ))}
       </div>
     </div>

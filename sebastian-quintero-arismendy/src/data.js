@@ -1,4 +1,4 @@
-export const movies = [
+export const cartelera = [
   {
     id: 1,
     titulo: "Los Simpson: La película",
