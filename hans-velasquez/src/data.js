@@ -7,4 +7,4 @@ export const destinos=[
     {id:4, pais:"Japón", ciudad: "Tokyo", precio:3500, duracionDias: 10, imagen:"https://www.japan.travel/wp-content/uploads/2020/03/japan-tourism.jpg"},
     {id:5, pais:"Jamaica", ciudad: "Kingston", precio:3000, duracionDias: 6, imagen:"https://www.jamaica.com/wp-content/uploads/2020/03/jamaica-beach.jpg"}]
 
-export default { destinos }
+export default {destinos};
