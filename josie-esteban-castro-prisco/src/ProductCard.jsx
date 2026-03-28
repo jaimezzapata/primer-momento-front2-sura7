@@ -29,6 +29,7 @@ const ProductCard = ({ nombreProducto, precio, categoria, imagen }) => {
       </p>
       <button style={{ 
         backgroundColor: '#007bff', 
+        
         color: 'white', 
         border: 'none', 
         padding: '8px 16px', 
