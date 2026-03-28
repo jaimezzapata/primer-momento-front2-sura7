@@ -5,7 +5,7 @@ function DestinyCard() {
     return (
         <div>
             {data.destinos.map((destino) => (
-                <div key={destino.id}>
+                <div className="tarjeta" key={destino.id}>
                     <img src={destino.imagen} alt={destino.ciudad} />
                     <h2>{destino.ciudad}, {destino.pais}</h2>
                     <p>Precio: ${destino.precio}</p>
