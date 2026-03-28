@@ -4,16 +4,14 @@ import { products } from './data';
 
 function App() {
 return (
- <section>
-    <h1>Productos Disponibles</h1>
-  <section>
-     {
-         products.map((producto) => (
-          <ProductCard producto={producto} />
-        ))
-      }
-  </section>
-     
+
+    <section className="app-container">
+      <h1>Catálogo de Productos</h1>
+      <section className="product-list">
+        {products.map((producto) => (
+          <ProductCard key={producto.id} producto={producto} />
+        ))}
+      </section>
     </section>
 );
 }

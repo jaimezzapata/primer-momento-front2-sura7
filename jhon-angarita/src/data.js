@@ -33,5 +33,12 @@ export const products = [
     precio: 100,
     categoria: "Accesorios",
     imagen: "https://gouforit.com/wordpress/wp-content/uploads/2023/02/teclado-mecanico-epomaker-th66-20-1024x768.jpg"
+    },
+    {
+    id: 6,
+    nombreProducto: "Smartwatch Fit",
+    precio: 200,
+    categoria: "Relojes",
+    imagen: "https://tse3.mm.bing.net/th/id/OIF.YRyjfHa3UZtPZMN03SZ5nQ?rs=1&pid=ImgDetMain&o=7&rm=3"
     }
 ];
