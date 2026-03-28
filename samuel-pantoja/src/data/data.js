@@ -6,7 +6,7 @@ export const movies = [
     director: "Denis Villeneuve",
     genero: "Ciencia ficción",
     duracion: "166 min",
-    poster: "https://pics.filmaffinity.com/Dune_Parte_Dos-288678616-large.jpg"
+    poster: "https://i.blogs.es/6061c9/dune-2-movie-poster/375_375.jpeg"
   },
   {
     id: 2,
