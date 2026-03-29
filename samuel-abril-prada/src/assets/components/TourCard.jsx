@@ -1,19 +1,18 @@
-import TourCard from './assets/components/TourCard.jsx'
-import { conciertos } from './seed.js'
-import './App.css'
 
-function App() {
-  
+const TourCard = ({ info }) => {
+    return (
+        <div>
+            <img src={info.imagen} alt={"Concierto en ${info.ciudad}"} />
+            
+            <div>
+                <p><strong>ID:</strong> {info.id}</p>
+                <h2>{info.ciudad}</h2>
+                <p><strong>Fecha:</strong> {info.fecha}</p>
+                <p><strong>Recinto:</strong> {info.recinto}</p>
+                <p><strong>Estado:</strong> {info.estadoBoletas}</p>
+            </div>
+        </div>
+    );
+};
 
-  return (
-   <section>
-    {
-      conciertos.map((concierto)=>(
-        <TourCard key={concierto.id} info={concierto} />
-      ))
-    }
-   </section>
-  )
-}
-
-export default App
+export default TourCard;
