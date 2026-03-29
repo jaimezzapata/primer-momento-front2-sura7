@@ -4,7 +4,7 @@ export const coursesData = [
     nombreCurso: "Introduccion a la informatica",
     profesor: "Carlos Mendoza",
     horasSemanales: 10,
-    nivel: "Basico",
+    nivel: "Básico",
     imagen: "https://blogdeinformaticadario.wordpress.com/wp-content/uploads/2015/11/introduccion.png"
   },
   {
@@ -28,7 +28,7 @@ export const coursesData = [
     nombreCurso: "Fundamentos de Bases de Datos y SQL",
     profesor: "Diana Rojas",
     horasSemanales: 12,
-    nivel: "Basico",
+    nivel: "Básico",
     imagen: "https://media.licdn.com/dms/image/v2/C4E12AQHWe6Iy5JPBjw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1618928046769?e=2147483647&v=beta&t=Hu9mzxZ-DOAGaZ_O_6Bte03F6MQS4X95G0Ie29SCZqA"
   },
   {
