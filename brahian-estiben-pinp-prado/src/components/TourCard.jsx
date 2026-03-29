@@ -1,11 +1,19 @@
-function TourCard({ city, date, venue }) {
-  return (
-    <div className="card">
-      <h2>{city}</h2>
-      <p>📅 {date}</p>
-      <p>📍 {venue}</p>
-    </div>
-  )
-}
+import React from "react";
 
-export default TourCard
+const TourCard = ({ city, venue, date, onClick }) => {
+  return (
+    <div className="tour-card" onClick={onClick}>
+      
+      <h2 className="city">{city}</h2>
+      <p className="venue">{venue}</p>
+      <span className="date">{date}</span>
+
+      <div className="hover-info">
+        Ver información de la gira
+      </div>
+
+    </div>
+  );
+};
+
+export default TourCard;
