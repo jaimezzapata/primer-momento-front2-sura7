@@ -1,15 +1,11 @@
-
-
 const ProductCard = ({ producto }) => {
     return (
- <div className="card">
-      <div className="image-container">
-        <img src={producto.imagen} alt={producto.nombreProducto} />
-      </div>
-      <div className="content">
-        <span className="category">{producto.categoria}</span>
+<div className="card">
+      <img src={producto.imagen} alt={producto.nombreProducto} />
+      <div className="card-content">
+        <span className="category-tag">{producto.categoria}</span>
         <h2>{producto.nombreProducto}</h2>
-        <span className="price">${producto.precio}</span>
+        <span className="price-tag">${producto.precio}</span>
       </div>
     </div>
     )
