@@ -15,8 +15,27 @@ export const CourseCard = ({ nombreCurso, profesor, horasSemanales, nivel, image
 };
 
 const styles = {
-  card: { border: '1px solid #ccc', borderRadius: '8px', padding: '16px', maxWidth: '300px', margin: '10px' },
-  image: { width: '100%', borderRadius: '8px', height: '150px', objectFit: 'cover' },
-  content: { marginTop: '12px' },
-  title: { fontSize: '1.2rem', margin: '0 0 10px 0', color: '#333' }
+  card: {
+    border: '1px solid #444',
+    borderRadius: '8px',
+    padding: '16px',
+    maxWidth: '300px',
+    margin: '10px',
+    backgroundColor: '#1a1a1a',
+    color: '#e0e0e0',
+  },
+  image: {
+    width: '100%',
+    borderRadius: '8px',
+    height: '150px',
+    objectFit: 'cover',
+  },
+  content: {
+    marginTop: '12px',
+  },
+  title: {
+    fontSize: '1.2rem',
+    margin: '0 0 10px 0',
+    color: '#fff',
+  },
 };
