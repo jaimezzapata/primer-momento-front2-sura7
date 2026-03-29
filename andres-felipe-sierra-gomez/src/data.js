@@ -30,5 +30,21 @@ export const coursesData = [
     horasSemanales: 12,
     nivel: "Basico",
     imagen: "https://media.licdn.com/dms/image/v2/C4E12AQHWe6Iy5JPBjw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1618928046769?e=2147483647&v=beta&t=Hu9mzxZ-DOAGaZ_O_6Bte03F6MQS4X95G0Ie29SCZqA"
-  }
+  },
+  {
+    id: 5,
+    nombreCurso: "Backend II",
+    profesor: "Valentina Ortiz",
+    horasSemanales: 9,
+    nivel: "Intermedio",
+    imagen: "https://profile.es/wp-content/media/backend-developer-min-1024x478.jpg",
+  },
+  {
+    id: 6,
+    nombreCurso: "Frontend II",
+    profesor: "Andrés Gomez",
+    horasSemanales: 15,
+    nivel: "Avanzado",
+    imagen: "https://codedamn.com/assets/images/learnpaths/og/frontend.png",
+  },
 ];
