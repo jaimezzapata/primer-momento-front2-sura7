@@ -6,12 +6,20 @@ function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
       <h1>Oferta Académica - DevAcademy</h1>
-      
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px' }}>
-        
+
+      <div
+        className="courses-container"
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          gap: '30px',
+          padding: '20px',
+        }}
+      >
         {coursesData.map((curso) => (
-          <CourseCard 
-            key={curso.id} 
+          <CourseCard
+            key={curso.id}
             nombreCurso={curso.nombreCurso}
             profesor={curso.profesor}
             horasSemanales={curso.horasSemanales}
@@ -19,8 +27,8 @@ function App() {
             imagen={curso.imagen}
           />
         ))}
-
       </div>
+
     </div>
   );
 }

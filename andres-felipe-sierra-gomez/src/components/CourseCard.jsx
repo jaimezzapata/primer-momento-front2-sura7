@@ -12,6 +12,14 @@ export const CourseCard = ({ nombreCurso, profesor, horasSemanales, nivel, image
   return (
     <div
       className="course-card"
+      onMouseEnter={(e) => {
+        e.currentTarget.style.transform = 'translateY(-5px)';
+        e.currentTarget.style.boxShadow = '0 6px 12px rgba(0,0,0,0.15)';
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.transform = 'translateY(0)';
+        e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
+      }}
       style={{
         ...styles.card,
         borderBottom: `4px solid ${getNivelColor(nivel)}`

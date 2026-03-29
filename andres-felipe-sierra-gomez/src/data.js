@@ -13,7 +13,7 @@ export const coursesData = [
     profesor: "Laura Gómez",
     horasSemanales: 6,
     nivel: "Básico",
-    imagen: "https://media.licdn.com/dms/image/v2/D4D12AQFnxb2cyB4ExQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1669297731190?e=2147483647&v=beta&t=sRnBowDzBe2IKcdXjmCd8R94qJ4SlAJgst-0QiUIEEA"
+    imagen: "https://hetic.in/wp-content/uploads/2019/05/best-alternate-to-web-development-course-1024x768.jpg"
   },
   {
     id: 3,
