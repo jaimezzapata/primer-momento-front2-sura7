@@ -11,7 +11,7 @@ function App() {
         textAlign: "center",
       }}
     >
-      <h1 style={{ fontSize: "36px", marginBottom: "10px", color: "#333" }}>
+      <h1 style={{ fontSize: "36px", marginBottom: "10px", color: "#333", paddingBottom:"10px", borderBottom: "2px solid #ddd" }}>
         Catálogo TechStore
       </h1>
 
