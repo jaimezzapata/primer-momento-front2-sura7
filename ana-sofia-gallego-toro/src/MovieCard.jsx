@@ -9,3 +9,4 @@ function MovieCard({ titulo, director, genero, duracion, poster }) {
     </div>
   );
 }
+export default MovieCard;
