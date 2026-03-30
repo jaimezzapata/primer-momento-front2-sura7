@@ -5,18 +5,19 @@ import { coursesData } from './data';
 function App() {
   return (
     <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
-      <h1>Oferta Académica - DevAcademy</h1>
+      <h1>Cursos Online Gratis</h1>
 
       <div
-        className="courses-container"
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          justifyContent: 'center',
-          gap: '30px',
-          padding: '20px',
+    className="courses-container"
+    style={{
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)', 
+    gap: '30px',
+    padding: '20px',
+    maxWidth: '1100px', 
+    margin: '0 auto'    
         }}
-      >
+        >
         {coursesData.map((curso) => (
           <CourseCard
             key={curso.id}
