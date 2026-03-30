@@ -34,3 +34,6 @@
 .destination-card p:last-child {
     margin-bottom: 16px;
 }
+.destination-card   img {
+    height: 200px;
+}
