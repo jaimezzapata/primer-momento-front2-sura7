@@ -5,7 +5,7 @@ export const destinos = [
     ciudad: "Tokio",
     duracionDias: 10,
     precioDolares: 2500,
-    imagenDinamica: "https://images.unsplash.com"
+    imagenDinamica: "https://unsplash.com/es/s/fotos/ciudad-de-tokio"
   },
   {
     id: 2,

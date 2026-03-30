@@ -1,10 +1,16 @@
-const DestinationCard = ({ info }) => {
+import { destinos } from '../data';
+
+const DestinationCard = () => {
   return (
-    <div style={{ border: '1px solid #ccc', borderRadius: '8px', padding: '15px', margin: '10px', textAlign: 'center' }}>
-      <img src={info.imagenDinamica} alt={info.ciudad} style={{ width: '100%', borderRadius: '5px' }} />
-      <h2>{info.pais} - {info.ciudad}</h2>
-      <p>Duración: {info.duracionDias} días</p>
-      <p>Precio: ${info.precioDolares} USD</p>
+    <div className="destination-grid">
+      {destinos.map((destino) => (
+        <div className="destination-card" key={destino.id}>
+          <img src={destino.imagenDinamica} alt={destino.ciudad} />
+          <h2>{destino.pais} - {destino.ciudad}</h2>
+          <p>Duración: {destino.duracionDias} días</p>
+          <p>Precio: ${destino.precioDolares} USD</p>
+        </div>
+      ))}
     </div>
   );
 };
