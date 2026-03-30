@@ -6,9 +6,10 @@ function App() {
   return (
     <div className="app">
       <header className="catalog-header">
+        <div className="titulo"><h1 className="eyebrow">Catálogo de Tienda de Tecnología</h1></div>
         <div className="header-copy">
-          <p className="eyebrow">Catálogo de Tienda de Tecnología</p>
-          <h1>Encuentra tu próximo gadget</h1>
+          
+          <h1>Encuentra tu próximo accesorio</h1>
           <p className="subtitle">
             Descubre productos tecnológicos ideales para tu oficina, entretenimiento y trabajo diario.
           </p>

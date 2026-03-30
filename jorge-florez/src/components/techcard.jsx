@@ -10,7 +10,7 @@ function TechCard({ producto }) {
         <span className="card-category">{categoria}</span>
         <h2>{nombreProducto}</h2>
         <p className="card-price">COP {precio.toLocaleString('es-CO')}</p>
-        <button className="card-button">Ver producto</button>
+        <button className="card-button">Comprar</button>
       </div>
     </article>
   )
