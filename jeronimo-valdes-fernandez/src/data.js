@@ -31,5 +31,21 @@ export const cursos = [
     horasSemanales: 8,
     nivel: "Intermedio",
     imagen: "https://media.istockphoto.com/id/1226086641/es/foto/joven-profesor-con-blazer-azul-camisa-casual-y-pantalones-sosteniendo-los-brazos-cruzados.jpg?s=612x612&w=0&k=20&c=AKstHN1069sms9dDcnBPlKdpWYZ1M97tBq8Q7S5Yrg4="
-  }
+  },
+  {
+    id: 5,
+    nombreCurso: "Base de datos 1",
+    profesor: "cristian villada",
+    horasSemanales: 6,
+    nivel: "intermedio",
+    imagen: "src/Nueva carpeta/WhatsApp Image 2026-03-30 at 3.21.27 PM.jpeg"
+  },
+  {
+    id: 6,
+    nombreCurso: "Base de datos 2",
+    profesor: "juan jose roldan",
+    horasSemanales: 8,
+    nivel: "Avanzado",
+    imagen: "src/Nueva carpeta/WhatsApp Image 2026-03-30 at 3.22.18 PM.jpeg"
+  },
   ];
