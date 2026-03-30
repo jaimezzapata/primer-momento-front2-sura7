@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f4f4f4;
+  background: #4f5b79;
 }
 
 .app {
@@ -16,6 +16,7 @@ body {
 
 h1 {
   margin-bottom: 20px;
+  color: white;
 }
 
 .cards-container {
@@ -25,21 +26,10 @@ h1 {
 }
 
 .card {
-  background: #fff;
+  margin: 10px;
+  background: #c2c1c1;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-align: left;
-}
-
-@media (min-width: 600px) {
-  .cards-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 900px) {
-  .cards-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
