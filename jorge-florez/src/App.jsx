@@ -1,4 +1,4 @@
-import TechCard from './components/techcard'
+import TechCard from './components/ProductCard'
 import productos from './data'
 import './App.css'
 
