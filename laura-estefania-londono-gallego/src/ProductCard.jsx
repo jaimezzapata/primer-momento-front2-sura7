@@ -1,5 +1,5 @@
 // src/ProductCard.jsx
-import './ProductCard.css'; // Opcional: si creas un archivo de estilos
+import './App.css';
 
 function ProductCard({ nombre, precio, categoria, imagen }) {
   return (
