@@ -14,8 +14,8 @@ function App() {
     <div className="main-container">
       <header className="header">
         <h1 className="title">
-          CESDE<span>EDUCATIVO</span>
-        </h1>
+  🎓 CESDE<span>EDUCATIVO</span>
+</h1>
         <p className="subtitle">
           Explora nuestra oferta académica para este semestre
         </p>

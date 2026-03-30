@@ -80,3 +80,42 @@ body {
 .search-input:focus {
   box-shadow: 0 0 0 2px #38bdf8;
 }
+
+.card-container {
+  backdrop-filter: blur(10px);
+  background: rgba(30, 41, 59, 0.7);
+}
+
+
+.card-container:hover {
+  border: 1px solid rgba(56, 189, 248, 0.5);
+}
+
+
+.header {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.search-input {
+  transition: all 0.3s ease;
+}
+
+.search-input:hover {
+  transform: scale(1.03);
+}
+
+.footer {
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
