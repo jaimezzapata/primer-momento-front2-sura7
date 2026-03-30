@@ -3,10 +3,10 @@ import MovieCard from "./MovieCard";
 
 function App() {
   return (
-    <div>
-      <h1>🎬 Cartelera Cinema City</h1>
+    <div className="app">
+      <h1 className="titulo">🎀 Cinema City 🎬</h1>
 
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div className="contenedor">
         {peliculas.map((pelicula) => (
           <MovieCard
             key={pelicula.id}
