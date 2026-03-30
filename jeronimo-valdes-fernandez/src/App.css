@@ -62,3 +62,21 @@ body {
   color: var(--text-secondary);
   font-size: 0.9rem;
 }
+.search-input {
+  display: block;
+  margin: 1rem auto 2rem auto;
+  padding: 12px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #1e293b;
+  color: white;
+  font-size: 0.9rem;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
+  transition: 0.3s;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px #38bdf8;
+}
