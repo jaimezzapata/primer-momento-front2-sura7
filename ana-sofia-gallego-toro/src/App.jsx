@@ -1,5 +1,5 @@
 import { peliculas } from "./data";
-import MovieCard from "./components/MovieCard";
+import MovieCard from "./MovieCard";
 
 function App() {
   return (
