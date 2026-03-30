@@ -13,7 +13,7 @@ export const destinos = [
     ciudad: "Londres",
     duracionDias: 5,
     precioDolares: 1200,
-    imagenDinamica: "https://url-de-ejemplo.com/Londres.jpg"
+    imagenDinamica: "https://th.bing.com/th/id/R.b055944571d72733069f0513bbb70d34?rik=Eqbfonzre3RUMg&riu=http%3a%2f%2fmapadelondres.org%2fwp-content%2fuploads%2f2015%2f03%2fl8-1024x683.jpg&ehk=w7qD3S7hVbiGhzVa3kye3pye3Oi3P%2f%2f3ezuu%2fINxEQ0%3d&risl=&pid=ImgRaw&r=0"
   },
   {
       id: 3,
@@ -21,7 +21,7 @@ export const destinos = [
     ciudad: "New York",
     duracionDias: 15,
     precioDolares: 1200,
-    imagenDinamica: "https://url-de-ejemplo.com/Londres.jpg"
+    imagenDinamica: "https://cdn.magzter.com/1426865090/1672151103/articles/RDEpsb1Z-1674651636977/1674651741318.jpg"
   }
   
 
