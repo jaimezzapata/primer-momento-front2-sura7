@@ -26,5 +26,19 @@ export const conciertos = [
     fecha: "2026-04-25",
     recinto: "Estadio Metropolitano",
     estadoBoletas: "Disponibles"
+  },
+   {
+    id: 5,
+    ciudad: "Pereira",
+    fecha: "2026-06-04",
+    recinto: "Estadio Hernán Ramírez Villegas",
+    estadoBoletas: "Disponibles"
+  },
+   {
+    id: 6,
+    ciudad: "Manizales",
+    fecha: "2026-08-12",
+    recinto: "Estadio Palogrande",
+    estadoBoletas: "Disponibles"
   }
 ];
