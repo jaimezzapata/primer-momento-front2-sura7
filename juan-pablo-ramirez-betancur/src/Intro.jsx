@@ -2,7 +2,7 @@ import React from 'react'
 
 const Intro = () => {
     return (
-        <section className="h-[80vh] flex items-center justify-center text-center bg-gradient-to-b from-black via-[#0B0B0F] to-black px-6">
+        <section className="h-[80vh] flex items-center justify-center text-center relative h-[80vh] bg-[url('/vishnu-r-nair-m1WZS5ye404-unsplash.jpg')] bg-cover bg-center px-6">
         
             <div className="max-w-3xl">
             
@@ -12,7 +12,7 @@ const Intro = () => {
                 </h1>
 
             
-                <p className="text-gray-300 text-lg md:text-xl mb-8">
+                <p className="text-[#000000] text-7xl text-lg md:text-xl mb-8">
                 Vive la experiencia en vivo. Descubre todas las fechas de nuestra gira nacional.
                 </p>
 
@@ -23,6 +23,7 @@ const Intro = () => {
 
             </div>
 
+            <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#0B0B0F]"></div>
         </section>
     );
 }
