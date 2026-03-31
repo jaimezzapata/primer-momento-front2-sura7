@@ -6,7 +6,7 @@ export const destinos = [
     ciudad: "Tokio",
     duracionDias: 10,
     precioDolares: 2500,
-    imagenDinamica: "https://unsplash.com"
+    imagenDinamica:  "/japón.jpg"
   },
   {
     id: 2,
@@ -14,15 +14,15 @@ export const destinos = [
     ciudad: "París",
     duracionDias: 7,
     precioDolares: 1800,
-    imagenDinamica: "https://unsplash.com"
+    imagenDinamica: "/francia.jpg"
   },
   {
     id: 3,
-    pais: "españa",
+    pais: "España",
     ciudad: "Madrid",
     duracionDias: 5,
     precioDolares: 3500,
-    imagenDinamica: "https://unsplash.com"
+    imagenDinamica: "/espana.jpg"
   },
   {
     id: 4,
@@ -30,7 +30,6 @@ export const destinos = [
     ciudad: "Roma",
     duracionDias: 6,
     precioDolares: 2200,
-    imagenDinamica: "https://unsplash.com"
+    imagenDinamica:"/italia.jpg"
   }
-
 ];
