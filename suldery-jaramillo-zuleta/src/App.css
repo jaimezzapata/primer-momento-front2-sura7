@@ -1,0 +1,225 @@
+/* src/App.css */
+:root {
+  --blue: #007bff;
+  --dark: #1a1a1a;
+  --gray: #f4f7f6;
+}
+
+body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: var(--gray); }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.logo { color: var(--blue); font-weight: bold; font-size: 1.5rem; }
+
+
+/* src/App.css */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/viaje.png'); 
+  background-size: cover;
+  background-position: center 30%;
+  
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  /* ESTO lo baja al extremo: */
+  justify-content: flex-end; 
+  align-items: flex-start;
+  padding-left: 8%;
+  padding-bottom: 40px; /* Espacio antes de que se acabe la foto */
+  box-sizing: border-box;
+}
+
+
+
+
+  /* src/App.css */
+/* --- BARRA BLANCA PROFESIONAL --- */
+.search-bar {
+  background-color: white; /* Color blanco */
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  /* Esto lo baja al extremo inferior izquierdo */
+  margin-top: auto; 
+  margin-bottom: 40px; 
+  margin-left: 0;
+  z-index: 10;
+}
+
+/* --- CUADROS DE TEXTO COMO BOTONES --- */
+.search-bar input {
+  border: 1px solid #eee;
+  padding: 12px 25px;
+  border-radius: 30px;
+  outline: none;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Sombra para que parezcan botones */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.search-bar input:focus {
+  border-color: #007bff;
+  background-color: white;
+}
+
+
+.search-bar input {
+  border: 1px solid #ddd;
+  padding: 12px 25px;
+  border-radius: 30px;
+  outline: none;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.05); /* Sombra interna sutil */
+}
+
+.btn-search {
+  background-color: #007bff; /* AZUL */
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,123,255,0.4); /* Sombra azul brillante */
+  transition: transform 0.2s;
+}
+
+btn-search:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* <-- Asegúrate de que diga 'transform' y no 'transformar' */
+}
+.hero {
+  /* ... tus otros estilos ... */
+  height: 500px; /* <--- Reduce la altura de 650px a 500px */
+  padding-top: 100px; /* <--- Reduce el relleno de 180px a 100px */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 10%;
+  box-sizing: border-box;
+}
+
+
+.hero h1 {
+  color: #ffcc00; /* Tu título amarillo */
+  font-size: 4rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+.hero p {
+  color: #ffffff; /* <--- AQUÍ ESTÁ EL BLANCO que querías */
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+  margin-top: 10px;
+  font-weight: 500;
+}
+.hero h1 {
+  margin-top: 500px; /* <--- Esto empuja el título hacia abajo */
+  color: #ffcc00;
+  font-size: 4rem;
+  font-weight: 800;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+  margin-bottom: 10px; /* Espacio con la letra blanca */
+}
+
+
+
+./* src/App.css */
+.search-bar {
+  background: white;
+  padding: 10px;
+  border-radius: 50px; /* Forma de píldora moderna */
+  display: inline-flex;
+  gap: 10px;
+  margin-top: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3); /* Sombra para que "flote" */
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.search-bar input {
+  border: 1px solid #eee; /* Borde suave para que parezca botón */
+  padding: 12px 25px;
+  border-radius: 30px;
+  outline: none;
+  background-color: #f9f9f9;
+  transition: all 0.3s;
+}
+
+.search-bar input:focus {
+  border-color: #007bff;
+  background-color: white;
+}
+
+.btn-search {
+  background-color: #007bff; /* AZUL */
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,123,255,0.4); /* Sombra azul */
+  transition: transform 0.2s;
+}
+
+.btn-search:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
+}
+
+.search-bar input { border: none; padding: 10px 20px; outline: none; }
+
+/* --- TUS CREDENCIALES BONITAS (TARJETAS) --- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card:hover { transform: translateY(-10px); }
+
+.card img { width: 100%; height: 200px; object-fit: cover; }
+
+.card-info { padding: 20px; }
+
+.card-info h3 { color: var(--dark); margin-bottom: 15px; }
+
+.card-info p { margin: 8px 0; color: #555; font-size: 1.1rem; }
+
+.btn-reserva {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+.btn-reserva:hover { background-color: #0056b3; }
