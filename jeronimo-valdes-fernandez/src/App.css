@@ -1,0 +1,121 @@
+:root {
+  --bg-color: #0f172a; 
+  --card-bg: #1e293b;  
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --accent: #38bdf8;   
+  --accent-hover: #7dd3fc;
+  --gradiente: linear-gradient(135deg, #38bdf8 0%, #a855f7 100%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 800;
+}
+
+.title span {
+  background: var(--gradiente);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.grid-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 2rem 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+.search-input {
+  display: block;
+  margin: 1rem auto 2rem auto;
+  padding: 12px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #1e293b;
+  color: white;
+  font-size: 0.9rem;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
+  transition: 0.3s;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px #38bdf8;
+}
+
+.card-container {
+  backdrop-filter: blur(10px);
+  background: rgba(30, 41, 59, 0.7);
+}
+
+
+.card-container:hover {
+  border: 1px solid rgba(56, 189, 248, 0.5);
+}
+
+
+.header {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.search-input {
+  transition: all 0.3s ease;
+}
+
+.search-input:hover {
+  transform: scale(1.03);
+}
+
+.footer {
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
