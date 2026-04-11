@@ -1,0 +1,137 @@
+/* Importar una fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  color: #2d3436;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #0984e3;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Contenedor de la galería */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo de la Tarjeta */
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Animación al pasar el mouse */
+.card:hover {
+  transform: translateY(-15px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Contenedor de imagen con efecto */
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+/* Contenido de la tarjeta */
+.card-content {
+  padding: 1.5rem;
+  background: #fff;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #2d3436;
+  font-size: 1.5rem;
+}
+
+.card p {
+  color: #636e72;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Etiqueta de duración flotante */
+.duration {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(9, 132, 227, 0.9);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  backdrop-filter: blur(5px);
+  z-index: 10;
+}
+
+/* Estilo del precio */
+.price {
+  display: block;
+  margin-top: 1.2rem;
+  font-weight: 600;
+  color: #00b894;
+  font-size: 1.4rem;
+  text-align: right;
+}
+
+.price::before {
+  content: 'Desde ';
+  font-size: 0.8rem;
+  color: #b2bec3;
+  font-weight: 400;
+}
+
+/* Animación de entrada para las tarjetas */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 0.6s ease backwards;
+}
+
+/* Retraso de animación para cada tarjeta (opcional) */
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+.card:nth-child(4) { animation-delay: 0.4s; }
