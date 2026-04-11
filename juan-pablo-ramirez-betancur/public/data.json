@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "ciudad": "Buenos Aires",
+    "fecha": "2026-04-15",
+    "recinto": "Estadio Monumental",
+    "estadoBoletas": "Disponibles"
+  },
+  {
+    "id": 2,
+    "ciudad": "Madrid",
+    "fecha": "2026-05-02",
+    "recinto": "WiZink Center",
+    "estadoBoletas": "Agotado"
+  },
+  {
+    "id": 3,
+    "ciudad": "Ciudad de México",
+    "fecha": "2026-05-20",
+    "recinto": "Palacio de los Deportes",
+    "estadoBoletas": "Últimas entradas"
+  },
+  {
+    "id": 4,
+    "ciudad": "Santiago",
+    "fecha": "2026-06-10",
+    "recinto": "Estadio Nacional",
+    "estadoBoletas": "Disponibles"
+  },
+  {
+    "id": 5,
+    "ciudad": "Lima",
+    "fecha": "2026-06-25",
+    "recinto": "Estadio Nacional de Lima",
+    "estadoBoletas": "Agotado"
+  },
+  {
+    "id": 6,
+    "ciudad": "Bogotá",
+    "fecha": "2026-07-05",
+    "recinto": "Movistar Arena",
+    "estadoBoletas": "Disponibles"
+  },
+  {
+    "id": 7,
+    "ciudad": "Barcelona",
+    "fecha": "2026-07-20",
+    "recinto": "Palau Sant Jordi",
+    "estadoBoletas": "Últimas entradas"
+  },
+  {
+    "id": 8,
+    "ciudad": "Sao Paulo",
+    "fecha": "2026-08-01",
+    "recinto": "Allianz Parque",
+    "estadoBoletas": "Disponibles"
+  }
+]
